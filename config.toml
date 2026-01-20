@@ -1,0 +1,8 @@
+baseURL = "https://peakposted.netlify.app/"
+languageCode = "en-us"
+title = "Peak Posted"
+theme = "paper"
+paginate = 10
+
+[params]
+  description = "Peak performance, productivity, and self-growth."
