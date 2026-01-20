@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Blog | Peak Posted</title>
+</head>
+<body>
+
+<h1>Peak Posted Blog</h1>
+
+{{ range .Pages }}
+  <h2><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
+  <p>{{ .Summary }}</p>
+{{ end }}
+
+</body>
+</html>
