@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>{{ .Title }} | Peak Posted</title>
+  <meta name="description" content="{{ .Params.description }}">
+</head>
+<body>
+
+  <h1>{{ .Title }}</h1>
+  <p>{{ .Date.Format "January 2, 2006" }}</p>
+
+  {{ .Content }}
+
+</body>
+</html>
